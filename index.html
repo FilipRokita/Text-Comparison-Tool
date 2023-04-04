@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Text Comparison</title>
+	<style>
+		/* Reset styles for HTML elements */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+        /* Styles for body element */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        /* Styles for body element */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #f2f2f2;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Styles for page header */
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        /* Styles for form */
+        form {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Styles for labels and text fields */
+        label, input[type="text"] {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #f2f2f2;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #888;
+            border-radius: 5px;
+            background-color: #555;
+            color: #f2f2f2;
+        }
+
+        /* Styles for button */
+        button {
+            background-color: #4CAF50;
+            color: #f2f2f2;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #3e8e41;
+        }
+
+        /* Styles for result */
+        .result {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+            text-align: center;
+            color: #f2f2f2;
+        }
+        .identical {
+            color: green;
+        }
+        .different {
+            color: red;
+}
+    </style>
+</head>
+<body>
+	<h1>Text Comparison</h1>
+	<form>
+		<label for="text1">Text 1:</label>
+		<input type="text" id="text1">
+		<label for="text2">Text 2:</label>
+		<input type="text" id="text2">
+		<button type="button" onclick="compare()">Compare</button>
+	</form>
+	<div class="result" id="result"></div>
+	<script>
+		function compare() {
+            var text1 = document.getElementById("text1").value;
+            var text2 = document.getElementById("text2").value;
+            document.getElementById("result").classList.remove("identical", "different");
+            if (text1 === text2) {
+                document.getElementById("result").innerHTML = "The texts are identical";
+                document.getElementById("result").classList.add("identical");
+            } else {
+                document.getElementById("result").innerHTML = "The texts are different";
+                document.getElementById("result").classList.add("different");
+            }
+        }
+
+	</script>
+</body>
+</html>
