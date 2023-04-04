@@ -1,4 +1,4 @@
-# Text Comparison Web App
+# Text Comparison Tool
 This is a web application that allows users to compare two texts and see whether they are identical or different. The app is built with HTML, CSS, and JavaScript.
 
 ## Usage
