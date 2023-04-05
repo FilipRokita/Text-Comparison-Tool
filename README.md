@@ -1,7 +1,5 @@
-# Text Comparison Tool
+# <a href="https://filiprokita.github.io/Text-Comparison-Tool/">Text Comparison Tool</a>
 <img src="screenshot.png" width="40%" height="40%">
-
-<h1><a href="https://filiprokita.github.io/Text-Comparison-Tool/">USE TEXT COMPARISON TOOL</a></h1>
 
 ## Description
 This is a web application that allows users to compare two texts and see whether they are identical or different. The app is built with HTML, CSS, and JavaScript.
