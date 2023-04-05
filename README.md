@@ -1,4 +1,4 @@
-# [Text Comparison Tool](https://filiprokita.github.io/Text-Comparison-Tool/){:target="_blank"}
+# [Text Comparison Tool](https://filiprokita.github.io/Text-Comparison-Tool/)
 <img src="screenshot.png" width="40%" height="40%">
 
 ## Description
