@@ -1,8 +1,10 @@
+# Text Comparison Tool
+
 <p align=center>
 <img src="screenshot.png" width="30%" height="30%"> 
 </p>
 
-# Text Comparison Tool
+## Description
 This is a web application that allows users to compare two texts and see whether they are identical or different. The app is built with HTML, CSS, and JavaScript.
 <br/>
 
